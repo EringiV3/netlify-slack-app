@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@slack/client": "^5.0.2",
     "netlify-lambda": "^1.6.3"
   },
   "devDependencies": {},
