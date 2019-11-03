@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 
-const sourceDir = './date'
+const sourceDir = './data'
 const outputPath = './public/messages.json'
 
 let result = {}
