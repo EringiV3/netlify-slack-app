@@ -6,8 +6,10 @@
   "dependencies": {
     "@octokit/rest": "^16.34.1",
     "@slack/client": "^5.0.2",
+    "bufferutil": "^4.0.1",
     "netlify-lambda": "^1.6.3",
-    "npm-install-missing": "^0.1.4"
+    "npm-install-missing": "^0.1.4",
+    "utf-8-validate": "^5.0.2"
   },
   "devDependencies": {},
   "scripts": {
