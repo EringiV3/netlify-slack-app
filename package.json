@@ -6,12 +6,13 @@
   "dependencies": {
     "@octokit/rest": "^16.34.1",
     "@slack/client": "^5.0.2",
-    "netlify-lambda": "^1.6.3"
+    "netlify-lambda": "^1.6.3",
+    "npm-install-missing": "^0.1.4"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "netlify-lambda build src/ && node src/build.js",
+    "build": "netlify-lambda build src/ && node build.js",
     "serve": "netlify-lambda serve src/"
   },
   "repository": {
